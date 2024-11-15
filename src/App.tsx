@@ -10,7 +10,7 @@ function App() {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://starbuckstech.com/big-bg.jpg")',
+          backgroundImage: 'url("/big-bg.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
