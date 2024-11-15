@@ -1,5 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: starbuckstech.com
-Token: 9c5c10e2696b594dbb6d2898fc10f3a0530366fb73d3aabf9aa861c36d13ea5f
-
