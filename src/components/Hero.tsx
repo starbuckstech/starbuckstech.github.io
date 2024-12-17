@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Hash } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -12,29 +12,32 @@ export function Hero() {
           <p className="mb-4">
             3D Printing Guru · Quadcopter Pilot · Husband · Dad
           </p>
-          <p>
-            Definitely related to the coffee
-          </p>
+          <p>Definitely related to the coffee</p>
         </div>
-        <p className="text-lg text-gray-300 mb-8">
-          Find me online here:
-        </p>
+        <p className="text-lg text-gray-300 mb-8">Find me online here:</p>
         <div className="flex justify-center space-x-6">
-          <a 
-            href="https://linkedin.com/in/adamstarbuck" 
+          <a
+            href="https://linkedin.com/in/adamstarbuck"
             className="text-white hover:text-blue-400 transition-transform hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Linkedin size={32} />
           </a>
-          <a 
-            href="https://github.com/starbuck93" 
+          <a
+            href="https://github.com/starbuck93"
             className="text-white hover:text-purple-400 transition-transform hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Github size={32} />
+          </a>
+          <a
+            rel="me"
+            href="https://mastodon.social/@adamstarbuck"
+            className="text-white hover:text-purple-400 transition-transform hover:scale-110"
+          >
+            <Hash size={32} />
           </a>
         </div>
       </div>
