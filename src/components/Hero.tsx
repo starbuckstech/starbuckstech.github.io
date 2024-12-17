@@ -32,13 +32,6 @@ export function Hero() {
           >
             <Github size={32} />
           </a>
-          <a
-            rel="me"
-            href="https://mastodon.social/@adamstarbuck"
-            className="text-white hover:text-purple-400 transition-transform hover:scale-110"
-          >
-            <Hash size={32} />
-          </a>
         </div>
       </div>
     </main>
