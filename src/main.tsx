@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")!).render(
     <AptabaseProvider 
     appKey= "<A-SH-3492479320>"
     options={{
-      host: "http://a.starbuckstech.com/"
+      host: "http://a.starbuckstech.com"
     }}>
       <App />
     </AptabaseProvider>
