@@ -2,11 +2,13 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
+import { AptabaseProvider } from "@aptabase/react";
 
-createRoot(document.getElementById('root')!).render(
+
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <AptabaseProvider appKey="<A-SH-3492479320>">
+      <App />
+    </AptabaseProvider>
   </StrictMode>
 );
-
-// adding a line to trigger a build AGAIN asdfaaaaaaa
