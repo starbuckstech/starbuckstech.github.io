@@ -21,6 +21,7 @@ export function Hero() {
             className="text-white hover:text-blue-400 transition-transform hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
+            data-umami-event="LinkedIn Button"
           >
             <Linkedin size={32} />
           </a>
@@ -29,6 +30,7 @@ export function Hero() {
             className="text-white hover:text-purple-400 transition-transform hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
+            data-umami-event="Github Button"
           >
             <Github size={32} />
           </a>
