@@ -3,7 +3,7 @@ import { Github, Linkedin, Hash } from 'lucide-react';
 
 export function Hero() {
   return (
-    <main className="relative z-10 flex-grow flex items-center justify-center px-6 py-12">
+    <main className="relative z-10 flex items-center justify-center px-6 py-12 mt-24">
       <div className="max-w-3xl mx-auto text-center">
         <div className="text-2xl text-white mb-12 leading-relaxed">
           <p className="mb-4">

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
+import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col relative">
+    <div className="min-h-screen flex flex-col relative overflow-x-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
@@ -18,6 +19,7 @@ function App() {
 
       <Navigation />
       <Hero />
+      <Skills />
       <Footer />
     </div>
   );
