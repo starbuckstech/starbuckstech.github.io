@@ -14,6 +14,13 @@ export function Navigation() {
         </div>
         <div className="space-x-6">
           <a
+            href="https://blog.starbuckstech.com/about"
+            className="text-white hover:text-green-400 transition-colors"
+            data-umami-event="About Button"
+          >
+            About
+          </a>
+          <a
             href="https://rxresu.me/me.starbuck/adam-starbuck"
             className="text-white hover:text-green-400 transition-colors"
             data-umami-event="Resume Button"

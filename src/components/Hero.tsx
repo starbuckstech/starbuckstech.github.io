@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Hash } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -7,7 +7,7 @@ export function Hero() {
       <div className="max-w-3xl mx-auto text-center">
         <div className="text-2xl text-white mb-12 leading-relaxed">
           <p className="mb-4">
-            ACU Grad · Systems Engineer · MDM Expert · Jamf Certified Expert
+            ACU Grad · Systems Administrator · MDM Expert · Jamf Certified Expert
           </p>
           <p className="mb-4">
             3D Printing Guru · Quadcopter Pilot · Husband · Dad
